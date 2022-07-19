@@ -1,0 +1,97 @@
+01 firstpattern
+	7 pattern questions
+02 secondpattern 
+	7 pattern question
+03 thirdstage_number
+	check prime number
+	check armstrong number
+	Reverse the given number
+04 fourthstage
+	find factorial
+	add two number
+	prime number in range
+05 fifth_search_alg
+	find number in the array 
+06 sixth_array
+	06.1 pointer
+		initialisation,store and print
+		swap number
+		array to pointer
+		array operations
+07 stl 
+	vector part 01 & 02
+08 29 W3r_array
+	find max array element
+	find 3 max array (2 pointer approach)
+	find second largest element
+	get largest element till ?
+	smallest element
+	-----------
+	most occurence
+	--find next  greater element
+	-------------------
+	wave  arr[n] = {1,2,3,4,5} to arr[n]={2,1,4,3,5}
+	find missing minimum and maximum element
+	update array by multiplying previous and next value
+	put  all even number one sid and odd number other side
+	print all 0 left side and 1 on right side
+	given 1 2 3 4 5 and arrange 5 1 4 2 3 
+09 binary search
+	introduction to binary search(implementation)
+10 selection sort
+	introduction to selection sort (implementation)
+11 450 question by love bubber
+	reverse array
+	find max and min using *max_element(arr,arr+n),min_element(arr,arr+n)
+	find kth max and minimum element of array
+	given array which consist of only 0,1,2 sort the array without using any sorting algo.
+	Move all negative element to one side of the array
+	get the union of two array 
+	write a program to cyclically rotate an array
+	Kadane's Algorithm (largest contiguous sub-array)
+12 bubble sort
+	introduction of bubble sort(implementation)
+13 love bubber video lecture
+	1 binary to decimal *assuming binary as a number
+	2 second method to get decimal number from binary input using pow function , here I am focusing on 1 ans neglating 0
+	3 complement of given bits
+	4 return true if n is divided by 2^x
+	5 Get nCr , important thing is long long datatype because when we multiply any postive number that's value increase very fast 
+	6 alernate arrange element like 1 2 3 4 5 to 2 1 4 3 5 or 1 2 3 4 5 6 to  2 1 4 3 6 5
+	7 given array like 1,2,3,1,2,3,4 ans 4 ,Four has no duplicatation
+	8 find intersection or same element from two given array
+	9 Print pair value which will going to form sum of given number k, like 1 2 3 is array and 3 is value of k so 1+2=3. (1,2) is pair  and answer
+	11 10 find triplet
+	12 two pointer approach 0 1 0 1 to 0 0 1 1 
+	13 find duplicate value from given number when every given element is positive integer
+	14 find duplicate value from given number when every given element is positive integer
+	15 find the pick element from the mountain array
+	16 find pivot(smallest number in array in log(n)) in rotated sorted array
+	find number  but this program throw time limit exceed
+	m= student , arr elements are pages , n=size of array
+	find the maximum in minimum element aisa hi kuch hint ke lie dia rahenga (arr[4] = {5,5,5,5}; painter(k) = 2; here 5,5,5,5 is board to paint)
+	selection sort lecture 16
+	bubble sort lecture 17
+	insertion sort, assume first element is already sorted
+	Reverse array using swap
+	merge array
+	26  pointer initialization , declaration , value print  of variable and pointer  along with address. perform arithmetic operation
+	27 Refrence Variable 
+	28 2D array
+	29-30 macro,inline function,default argument,Counting
+	#Recursion
+	31 Factorial using Recursion and multiple of 2
+	32 Fibonacci series,ClimbStairs,SayDigits
+	33 isSorted ,lenearSort,BinarySort
+	34 Reverse , isPalindrom , bubble sort
+	35 MergeSort
+	36 QuickSort	
+	
+
+#Recursion 
+34. 
+Insertion Sort
+Selection Sort
+33.
+Sum of Array
+Binary Search 12-15 using recursion

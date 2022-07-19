@@ -1,0 +1,1 @@
+*max_element(arr,arr+n) what is * here ?
