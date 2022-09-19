@@ -110,7 +110,7 @@ int main(){
 
     // insert in the last
     insertAtPos(head,6,0);
-    print(head);
+    print(head); 
 
 
     //deletion in the bigin

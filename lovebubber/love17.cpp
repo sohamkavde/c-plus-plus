@@ -2,42 +2,47 @@
 using namespace std;
 // find number  but this program throw time limit exceed
 int binarysearch(int arr[],int s , int e , int k){
-    int  ans = s;
-    int mid = s+(e-s)/2;
-    while(s<=e)
-    {
-        if(arr[mid] == k){
-            ans= mid;
-        }else if(arr[mid]<k){
-            s= mid+1;
-        }else{
-            e = mid-1;
-        }
-        mid = s+(e-s)/2;
-    }
-    return ans;
+        int  ans = -1;
+            int mid = s+(e-s)/2;
+            while(s<=e)
+            {
+                if(arr[mid] == k){
+                    ans = mid;
+                    break;
+                }else if(arr[mid]<k){
+                    s= mid+1;
+                }else{
+                    e = mid-1;
+                }
+                mid = s+(e-s)/2;
+            }
+            return ans;
 }
 void find_num(int arr[],int n , int k){
-    int s=0;
-    int e=n;
-    int mid = s +(e-s)/2;
-    while (s<e)
-    {
-        if(arr[mid]>=arr[0]){
-            s = mid +1;
-        }else{
-            e = mid;
+     int s=0;
+        int e=n-1;
+        int mid = s +(e-s)/2;
+        while (s<e)
+        {
+            
+            if(arr[mid]>=arr[0]){
+                s = mid +1;
+            }else{
+                e = mid;
+            }
+            mid = s +(e-s)/2;
+            
         }
-        mid = s +(e-s)/2;
-    }
-    int pivot = s;
-    int ans = -1;
-    if(arr[pivot]<=k&&k<=arr[n-1]){
-        ans = binarysearch(arr,pivot,n-1,k);
-    }else{      
-        ans = binarysearch(arr,0,pivot-1,k);
-    }
-    cout<<s;
+        int pivot = s;
+       
+        int ans = -1; // yaha -1 ya koi bhi value de sakte hai kyuki ye update hone vala hai
+        if(arr[pivot]<=k&&k<=arr[n-1]){
+            ans = binarysearch(arr,pivot,n-1,k);
+
+        }else{      
+            ans = binarysearch(arr,0,pivot-1,k);
+        }
+        cout<< ans;
 }
 int main(){
     int n;

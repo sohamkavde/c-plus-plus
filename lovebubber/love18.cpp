@@ -8,7 +8,7 @@ bool Ispossible(int arr[],int n,int m, int mid){
     {
         if(add+arr[i]<=mid){
             add= add+arr[i];
-        }else{
+        }else{   
             student +=1;
             if(student>m||arr[i]>mid){// stuck here
                 return false;

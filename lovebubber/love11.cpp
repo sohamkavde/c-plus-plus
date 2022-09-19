@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// find triplet
 int triplet(int  i , int j , int k){
     if(i>j&&i>k){
         if(i*i == j*j+k*k){

@@ -22,7 +22,7 @@ class Soham{
 };
 
 // method overloading -- Run time polymorphism
-class Sonu{
+class Sonu : public Soham{
     public:
        void say(){
             cout<<"This is function overlaoding or method overloading \n";

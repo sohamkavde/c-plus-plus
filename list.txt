@@ -49,32 +49,35 @@
 	get the union of two array 
 	write a program to cyclically rotate an array
 	Kadane's Algorithm (largest contiguous sub-array)
-12 bubble sort
+12 bubble sort 
 	introduction of bubble sort(implementation)
 13 love bubber video lecture
-	1 binary to decimal *assuming binary as a number
+	1 binary to decimal *assuming binary as a number #R
 	2 second method to get decimal number from binary input using pow function , here I am focusing on 1 ans neglating 0
 	3 complement of given bits
 	4 return true if n is divided by 2^x
-	5 Get nCr , important thing is long long datatype because when we multiply any postive number that's value increase very fast 
-	6 alernate arrange element like 1 2 3 4 5 to 2 1 4 3 5 or 1 2 3 4 5 6 to  2 1 4 3 6 5
-	7 given array like 1,2,3,1,2,3,4 ans 4 ,Four has no duplicatation
+	5 Get nCr , important thing is long long datatype because when we multiply any postive number that's value increase very fast  #R
+	6 alernate arrange element like 1 2 3 4 5 to 2 1 4 3 5 or 1 2 3 4 5 6 to  2 1 4 3 6 5 #R
+	7 given array like 1,2,3,1,2,3,4 ans 4 ,Four has no duplicatation #R
 	8 find intersection or same element from two given array
-	9 Print pair value which will going to form sum of given number k, like 1 2 3 is array and 3 is value of k so 1+2=3. (1,2) is pair  and answer
+	9 Print pair value which will going to form sum of given number k, like 1 2 3 is array and 3 is value of k so 1+2=3. (1,2) is pair  and answer #R
 	11 10 find triplet
 	12 two pointer approach 0 1 0 1 to 0 0 1 1 
 	13 find duplicate value from given number when every given element is positive integer
 	14 find duplicate value from given number when every given element is positive integer
+	#binary
 	15 find the pick element from the mountain array
 	16 find pivot(smallest number in array in log(n)) in rotated sorted array
 	find number  but this program throw time limit exceed
 	m= student , arr elements are pages , n=size of array
 	find the maximum in minimum element aisa hi kuch hint ke lie dia rahenga (arr[4] = {5,5,5,5}; painter(k) = 2; here 5,5,5,5 is board to paint)
-	selection sort lecture 16
-	bubble sort lecture 17
-	insertion sort, assume first element is already sorted
-	Reverse array using swap
-	merge array
+	#sort
+	selection sort lecture 16  #R
+	bubble sort lecture 17 #R
+	insertion sort, assume first element is already sorted #R
+	Reverse array using swap #R
+	merge array #R
+	#pointer
 	26  pointer initialization , declaration , value print  of variable and pointer  along with address. perform arithmetic operation
 	27 Refrence Variable 
 	28 2D array
@@ -86,12 +89,52 @@
 	34 Reverse , isPalindrom , bubble sort
 	35 MergeSort
 	36 QuickSort	
-	
+	37-41 Online Compiler pr Done
+	#OOPs
+	42 Basic Of OOps Constructors shollow and deep copy etc
+	43 OOPS concept Four major pilors Inheritance ,Encapsulation,Polymorphism,Abstraction
+	#Linked List 
+	44 Linked List
+		44_1 Singly Linked List , Node creation , insertion , print , deletion
+		44_2 Doubly Linked list , insertion , position , deletion , print
+		44_3 Cicular Linked list , insertion , position , deletion , print
+	45 Reverse Singly linked list,Find the middle of Singly list element
+	46 Reverse Singly linked list in Group of K = 3
+	47 check list is circular or not , Detection of intersection of circular list and return Node,  starting Node of circular List ,  First Find Last Node of circular list and move to NUll i.e. remove Circular list from given list
+	48 Remove Duplicates in sorted array
+	49 Merge Two Sorted Linked List T.C => O(n) , S.C => O(n) , S.C =>O(1) || Sort 0,1,2
+	50 Check Palindrom in linked List
+	51 Add two Numbers
+	52 Clone A linked List with Random pointer
+	53 Merge Sort In Linked List
+	#Stack
+	54 implementation of stack
+	55 Question #stack
+		1 reverse string using stack [TC =  SC = O(n)] 
+		2 insert  data at the bottom i.e. in the first position of given number
+		3 sort stack
+		4 insert data in middle of the node
+		5 Reverse stack #Recursion
+		6 How many parenthesis is required to change to make  given input  valid
+		7 check is there really need of  () parenthesis or  not in given string
+	56 
+		1 Next first smallere element TC = SC = O(N)
+		2 Largest Rectangle in Histogram
+    57
+		1 sample inputs - Find Max Rectangle in binary matrix
+		2 Function to find if there is a celebrity in the party or not.
+		
+	#Queue
+	60
+		1 Create Queue
+		2 Circular
+		3 Double ended Queue
+	61 
+		1 Quetion - Reverse Queue # Here I add two approach
+		2 find first  negative integer in every window of size k 
+		3  Reverse first k element
+		4 non_repeating Quite different 
+		5 Circular tour
+		6 Interleave the first half of the queue  with second  half
 
-#Recursion 
-34. 
-Insertion Sort
-Selection Sort
-33.
-Sum of Array
-Binary Search 12-15 using recursion
+

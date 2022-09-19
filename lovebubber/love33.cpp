@@ -29,14 +29,15 @@ bool BinarySearch(int arr[],int s,int n, int k){
     if(s>n){
         return 0;
     }
+
     int mid = s+(n-s)/2;
     if(arr[mid]==k){
         return true;
     }
-    else if(arr[mid]<k){
-            return(arr,mid+1,n,k);
+    if(arr[mid]<k){
+           return BinarySearch(arr,mid+1,n,k);
     }else{
-            return(arr,s,mid-1,k);
+           return BinarySearch(arr,s,mid-1,k);
     }
     
 }
@@ -58,15 +59,15 @@ int main(){
 
     int n;
     cin>>n;
-    int k;
-    cin>>k;
     int arr[n];
     for (int i = 0; i < n; i++)
     {
         cin>>arr[i];
     }
+    int k;
+    cin>>k;
     // bool check = lenearSearch(arr,n,k);
-    bool check = BinarySearch(arr,0,n,k);
+    bool check = BinarySearch(arr,0,n-1,k);
     cout<<check<<endl;
     
 }

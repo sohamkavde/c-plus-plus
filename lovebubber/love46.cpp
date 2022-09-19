@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 using namespace std;
 ///Q1 Reverse Singly linked list in Group of K = 3
 class Node{

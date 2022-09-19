@@ -9,7 +9,7 @@ int main(){
     {
         cin>>arr[i];
     }
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i < n; i++) // if n = 5 than it will take 4 iteration
     {
         for (int j = 0; j < n-i; j++)
         {
@@ -18,9 +18,9 @@ int main(){
                 
             }
         }
-        
+        cout<<i<<" ";
     }
-    
+    cout<<endl;
     
     for (int i = 0; i < n; i++)
     {

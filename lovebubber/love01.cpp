@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// binary to decimal *assuming binary as a number
+// binary to decimal ========== *assuming binary as a number
 int main(){
     int n;
     cin>>n;

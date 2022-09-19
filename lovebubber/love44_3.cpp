@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// Circular Linked list , insertion , position , deletion , print
 class Node{
     public:
         int data;
@@ -45,7 +46,7 @@ void print(Node* &head){
 };
 
 void inseretNode(Node* &head, int data){
-    Node* temp = new Node(2);
+    Node* temp = new Node(data);
     Node* head1 = head;
 
     temp->next = head1;
@@ -94,7 +95,6 @@ void deleteNode(Node* &head, int val){
 int main(){
     Node* node1 = new Node(1);
     Node* head = node1;
-    Node* tail = node1;
 
     // print data
     print(head);
