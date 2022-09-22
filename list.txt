@@ -136,5 +136,7 @@
 		4 non_repeating Quite different 
 		5 Circular tour
 		6 Interleave the first half of the queue  with second  half
-
+	#Tree
+	62 Construct Tree , Traversal of tree by level order , build tree by level order , inorder(LNR),preOrder(NLR),postOrder(LRN)
+		
 
