@@ -1,26 +1,26 @@
-01 firstpattern
+01 Pattern-Questions
 	7 pattern questions
-02 secondpattern 
+02 Pattern-Questions-II 
 	7 pattern question
-03 thirdstage_number
+03 Numbers-Solutions
 	check prime number
 	check armstrong number
 	Reverse the given number
-04 fourthstage
+04 Function-Solutions
 	find factorial
 	add two number
 	prime number in range
-05 fifth_search_alg
+05 Search-algorithms
 	find number in the array 
-06 sixth_array
+06 Array-Solutions
 	06.1 pointer
 		initialisation,store and print
 		swap number
 		array to pointer
 		array operations
-07 stl 
+07 STL 
 	vector part 01 & 02
-08 29 W3r_array
+08 W3r_array-Solutions
 	find max array element
 	find 3 max array (2 pointer approach)
 	find second largest element
@@ -36,11 +36,11 @@
 	put  all even number one sid and odd number other side
 	print all 0 left side and 1 on right side
 	given 1 2 3 4 5 and arrange 5 1 4 2 3 
-09 binary search
+09 Binarysearch
 	introduction to binary search(implementation)
-10 selection sort
+10 Selectionsort
 	introduction to selection sort (implementation)
-11 450 question by love bubber
+11 450 Question by love bubber
 	reverse array
 	find max and min using *max_element(arr,arr+n),min_element(arr,arr+n)
 	find kth max and minimum element of array
@@ -49,7 +49,7 @@
 	get the union of two array 
 	write a program to cyclically rotate an array
 	Kadane's Algorithm (largest contiguous sub-array)
-12 bubble sort 
+12 Bubblesort 
 	introduction of bubble sort(implementation)
 13 love bubber video lecture
 	1 binary to decimal *assuming binary as a number #R
